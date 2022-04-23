@@ -1,0 +1,155 @@
+body {
+    font-family: Arial;
+    font-size: 18px;
+    background: #ccc;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#container {
+    width: 85%;
+    margin: 10px auto;
+    overflow: auto;
+    border-radius: 10px;
+    background: #fff; 
+}
+
+#main {
+    padding: 10px;
+    background: #f4f4f4;
+}
+
+#max {
+    padding: 20px;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    background: #f4f4f4;
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    height: 40px;
+    background: #aaa;
+    margin: 0px auto;
+    padding-right: 30px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    float: right;
+    list-style: none;
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-top: 11px;
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #000;
+    transition: .4s;
+    transform: scale(1.2);
+}
+
+h1 {
+    text-align: center;
+}
+/*  forms */
+
+
+
+#contactform textarea {
+    width: 95.4%;
+    margin-left: 3%;
+    margin-top: 10px;
+    height: 250px;
+}
+
+.Theo {
+    width: 44.5%;
+    float: left;
+    margin-left: 3%;
+    height: 40px;
+    padding: 10px;
+}
+
+
+#contactform {
+  margin-top: 30px;
+}
+
+#submitbtn {
+    float: right;
+    margin-top: 20px;
+    margin-right: 1%;
+    font-size: 20px;
+    padding: 15px 25px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    height: 50px;
+    text-align: center;
+}
+
+
+#Top a:hover{
+    color: #fff;
+}
+
+
+#live{
+    display: flex;
+}
+
+#live a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #aaa;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}   
+
+
+#live a:hover {
+    transition: .3s;
+    transform: scale(1.3);
+}
+
+span {
+    color: #2a041732;
+}
